@@ -16,4 +16,72 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@id/google_signIn_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="M"
+            android:textOff="M"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="T"
+            android:textOff="T"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="W"
+            android:textOff="W"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="T"
+            android:textOff="T"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="F"
+            android:textOff="F"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="S"
+            android:textOff="S"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textOn="S"
+            android:textOff="S"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
