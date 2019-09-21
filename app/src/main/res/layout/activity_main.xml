@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/google_signIn_button"
@@ -28,9 +29,17 @@
         <ToggleButton
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:textOn="S"
+            android:textOff="S"
+            android:layout_margin="6dp"
+            android:background="@drawable/round_button"
+            android:textSize="16sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:textOn="M"
             android:textOff="M"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
         <ToggleButton
@@ -38,7 +47,7 @@
             android:layout_height="32dp"
             android:textOn="T"
             android:textOff="T"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
         <ToggleButton
@@ -46,7 +55,7 @@
             android:layout_height="32dp"
             android:textOn="W"
             android:textOff="W"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
         <ToggleButton
@@ -54,7 +63,7 @@
             android:layout_height="32dp"
             android:textOn="T"
             android:textOff="T"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
         <ToggleButton
@@ -62,7 +71,7 @@
             android:layout_height="32dp"
             android:textOn="F"
             android:textOff="F"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
         <ToggleButton
@@ -70,15 +79,7 @@
             android:layout_height="32dp"
             android:textOn="S"
             android:textOff="S"
-            android:layout_margin="8dp"
-            android:background="@drawable/round_button"
-            android:textSize="16sp"/>
-        <ToggleButton
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:textOn="S"
-            android:textOff="S"
-            android:layout_margin="8dp"
+            android:layout_margin="6dp"
             android:background="@drawable/round_button"
             android:textSize="16sp"/>
 
